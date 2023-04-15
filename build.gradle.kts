@@ -10,7 +10,7 @@ dependencies {
 
     compileOnly("io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT")
 
-    implementation("io.github.muqhc:skyguifx:0.1.1")
+    implementation("io.github.muqhc:skyguifx:0.1.2")
 }
 
 val pluginName = rootProject.name.split('-').joinToString("") { it.capitalize() }
